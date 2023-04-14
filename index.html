@@ -20,7 +20,7 @@
       <div class="inner">
 	<img src="images/CLARA_ICON2.png" alt="C.E.B. icon" width="150" style="padding-bottom:10px"/>
 	<h4>C. E. Brasseur</h4>
-	PhD student at University of St Andrews.  
+	University of St Andrews Postgraduate Researcher
 	<nav>
 	  <ul>
 	    <li><a href="#about">About</a></li>
@@ -49,11 +49,10 @@
 	  <h1><img src="images/wombChair.jpg" alt="Casual picture of me in a balloon chair" width="400"/>
 	   C.&nbspE.&nbspBrasseur</h1>
 	  <p>
-	    I am currently a PhD student studying with <a href="https://jardine-group.wp.st-andrews.ac.uk/">Dr. Moira Jardine</a>
-	    at the University of St Andrews, where my research focuses on magnetic fields on cool stars.
-	    I also have an interest in multi-wavelength studies of stellar flares.
-	    In addition to stellar astronomy I am a dedicated astronomical software developer, and am involved in the Astropy
-	    Project where I am a maintainer for the  <a href="https://astroquery.readthedocs.io">Astroquery package</a>.
+            I am currently a PhD student studying with <a href="https://jardine-group.wp.st-andrews.ac.uk/"  target="_blank">Professor Moira Jardine</a>
+            at the University of St Andrews. My research focuses on the magnetic fields of cool stars, specifically studying stellar
+            coronas in the radio regime. In addition to stellar astronomy, I am a dedicated astronomical software developer with a
+            particular interest in astronomical data sonification.</p>
 	</div>
       </section>
 
@@ -62,97 +61,166 @@
       <section id="research" class="wrapper style3-alt fade-up">
 	<div class="inner">
 	  <h2>Research</h2>
-	  <img src="images/10263691_bestFRED.png" alt="Best flare" width="30%"/>
-	  <img src="images/9836207_niceFred_2.png" alt="Another nice flare" width="30%"/>
-	  <img src="images/9530864_neighbors.png" alt="Neighboring flares" width="30%"/>
-	  <p>I work with <a href="https://www.stsci.edu/~osten/Rachel_Ostens_homepage.html">Dr. Rachel Osten</a>, studying stellar flares in the optical and near-ultraviolet, making use of the GALEX and Kepler space telescope surveys. We detected a collection of short-duration ultra-violet flares in the GALEX data, my favorites of which are pictured above. This work is published in <a href="https://ui.adsabs.harvard.edu/abs/2019ApJ...883...88B">Brasseur et al. 2019</a> and a forthecoming paper will discuss associated Kepler observations.</p>
-	</div>
-      </section>
 
+          <h3>Stellar Magnetic Fields</h3>
+
+          <center>
+	  <img src="images/all_field_lines.png" alt="AB Dor model magnetic field lines colored by magnetic field strength" width="45%"/>
+          <img src="images/prom_field_lines.png" alt="AB Dor model magnetic field lines colored with stellar prominences highlighted" width="45%"/>
+          </center>
+          
+          <p>I am using Zeeman-Dopper Imaging (ZDI) surface magnetic field maps of the fast-rotating young star AB Dor to model the magnetic field
+          structure of the corona.  Within the model I locate stellar prominences (cool, dense clouds of gas trapped within the million-degree
+          plasma of a star's  corona) and determine their mass. I am using these models in combination with observational data to test the overall
+          stellar field structure and define the extent of the stellar corona.</p>
+
+
+          <h3>Stellar Flares</h3>
+
+          <center>
+	  <img src="images/10263691_bestFRED.png" alt="Best flare" width="30%"/>
+	  <img src="images/galex_vs_kepler_energies.png" alt="Plot showing how much extra UV flux there must be in our galex flares" width="46%"/>
+          </center>
+          <center>
+          <img src="images/gk_flare_big.png" alt="GALEX flare with associated Kepler data " width="70%"/>
+          </center>
+
+          <p>In collaboration with <a href="https://www.stsci.edu/~osten/Rachel_Ostens_homepage.html"  target="_blank">Dr. Rachel Osten</a>,
+            I have produced two studies of stellar flares in the optical and near-ultraviolet.
+            In <a href="https://ui.adsabs.harvard.edu/abs/2019ApJ...883...88B"  target="_blank">Brasseur et al. 2019</a>
+          we present a collection of short-duration ultra-violet flares in data from the GALEX space telescope. In
+            <a href="https://ui.adsabs.harvard.edu/abs/2023ApJ...944....5B"  target="_blank">Brasseur et al. 2023</a>
+            we combine the GALEX data with coincident optical data
+          from the Kepler space telescope. In this study we show that current flare models significantly underestimate the amont of UV radiation as
+          compared to optical flux, and highlights the need for more physically grounded approximations for flare energy fractionation.</p>
+             
+
+	</div>
+
+        
+      </section>
+      
       
       <!-- Software -->
       <section id="software" class="wrapper style2 spotlights">
-        <section>
-	      <a href="https://astrocut.readthedocs.io" Class="image">
-	        <img src="images/AstroCut_medium.png" alt="astrocut logo" width="300" style="padding-top:45px; padding-left:10px"/>
-	      </a>
-	      <div class="content">
-	        <div class="inner">
-	          <a href="https://astrocut.readthedocs.io"><h2>Astrocut</h2></a>
-	          <p>Astrocut contains cutout tools for astronomical data. It offers efficent cutouts of Transiting Exoplanet Survey
-		    Satellite full-frame image sets as well as more generic "fits-cut" tools. Astrocut is the software that backs
-		    the <a href="https://mast.stsci.edu/tesscut/">TESScut</a> and
-		    <a href="https://mast.stsci.edu/tesscutzcut/">zCut</a> cutout services. I was the original developer and maintainer
-		    for this package.</p>
-	        </div>
-	      </div>
-	    </section>
+        
 	    <section>
-	      <a href="https://astroquery.readthedocs.io" class="image">
+	      <a href="https://astroquery.readthedocs.io" class="image"  target="_blank">
 	        <img src="images/astropy.png" alt="astroquery logo"  width="300" style="padding-top:45px; padding-left:10px"/>
 	      </a>
 	      <div class="content">
 	        <div class="inner">
-	          <a href="https://astroquery.readthedocs.io"><h2>Astroquery</h2></a>
-	          <p>Astroquery is a set of tools for querying astronomical web forms and databases.
-		    It provides streamlined Python access to a plethora of astronomical archives and datasets.
-		    I am a package maintainer.</p>
+	          <a href="https://astroquery.readthedocs.io" target="_blank"><h2>Astroquery</h2></a>
+	          <p>I am one of three package maintainers for Astroquery, a set of tools for querying astronomical
+                    web forms and databases. It provides streamlined Python access to a plethora of astronomical archives
+                    and datasets, and is part of the <a href="https://www.astropy.org/" target="_blank">Astropy Project</a>.</p>
 	        </div>
 	      </div>
 	    </section>
+            
 	    <section>
-	      <a href="https://github.com/spacetelescope/astronify" class="image">
+	      <a href="https://github.com/spacetelescope/astronify" class="image"  target="_blank">
 	        <img src="images/astronify-CIRCLE.png" alt="astronify logo"  width="300" style="padding-top:45px; padding-left:10px"/>
 	      </a>
 	      <div class="content">
 	        <div class="inner">
-	          <a href="https://astronify.readthedocs.io"><h2>Astronify</h2></a>
-	          <p>Astronify contains tools for sonifying astronomical data, particulary timeseries data such as light curves.
-		    I am the lead developer and maintainer of this project.</p>
+	          <a href="https://astronify.readthedocs.io"  target="_blank"><h2>Astronify</h2></a>
+	          <p>I am the lead developer and maintainer of Astronify, a package for sonifying astronomical data,
+                    particularly timeseries data such as light curves.</p>
 	        </div>
 	      </div>
 	    </section>
+
+            <section>
+	      <a href="https://astrocut.readthedocs.io" Class="image"  target="_blank">
+	        <img src="images/AstroCut_medium.png" alt="astrocut logo" width="300" style="padding-top:45px; padding-left:10px"/>
+	      </a>
+	      <div class="content">
+	        <div class="inner">
+	          <a href="https://astrocut.readthedocs.io"  target="_blank"><h2>Astrocut</h2></a>
+	          <p>I was the original developer (from inception until August 2021) of Astrocut, a package of cutout tools for astronomical data.
+                    It offers efficent cutouts of Transiting Exoplanet Survey
+		    Satellite full-frame image sets as well as more generic "fits-cut" tools. Astrocut is the software that backs
+		    the <a href="https://mast.stsci.edu/tesscut/"  target="_blank">TESScut</a> and
+		    <a href="https://mast.stsci.edu/tesscutzcut/"  target="_blank">zCut</a> cutout services. </p>
+	        </div>
+	      </div>
+	    </section>
+            
       </section>
       
       
       <!-- Talks -->
       <section id="talks" class="wrapper style2 fade-up">
 	<div class="inner">
+          
 	  <h2>Talks</h2>
-	  <p>This is a selection of talks and tutorials that I have given where there are materials available on the internet. </p>
+	  <p>A selection of talks and tutorials that I have given for which there are materials available online. </p>
+          
 	  <div class="features">
+            <section>
+	      <span class="icon solid major fa-file"></span>
+	      <h3>Stellar magnetic field manifestations: flares</h3>
+	      <p><a target="_blank" href="https://zenodo.org/record/7523406">Presentation slides.</a></p>
+	    </section>
+
+            <section>
+	      <span class="icon solid major fa-file"></span>
+	      <h3>Stellar Flares in GALEX and Kepler</h3>
+	      <p><a target="_blank" href="https://docs.google.com/presentation/d/1OVWqr5y1sMV_BEEFvlj276LKCcvdjDOW/edit?usp=share_link&ouid=112857101966377091936&rtpof=true&sd=true">Presentation slides.</a></p>
+	    </section>
+
+            <section>
+	      <span class="icon brands solid major fa-github"></span>
+	      <h3>Cepheid Variable Stars in Globular Cluster NGC 1866</h3>
+	      <p>MSc dissertaion <a target="_blank" href="https://github.com/ceb8/CepheidVariables">github repository</a> and <a target="_blank"  href="https://github.com/ceb8/CepheidVariables/blob/master/doc/Brasseur_NGC1866_Cepheids.pdf">pdf</a>.</p>
+	    </section>
+
+            <section>
+	      <span class="icon solid major fa-video"></span>
+	      <h3>Hearing the Light: Astronomical Data Sonification</h3>
+	      <p><a target="_blank" href="https://www.youtube.com/watch?v=ZWcRDOOamd0&t=945s&pp=ygUOY2xhcmEgYnJhc3NldXI%3D">Presentation video.</a></p>
+	    </section>
+
+            <section>
+	      <span class="icon solid major fa-video"></span>
+	      <h3>Hearing the Light: Astronomy Data Sonification</h3>
+	      <p>With Jenn Kotler and Scott Fleming. <a target="_blank" href="https://www.youtube.com/watch?v=EwzdkX1ekcM&pp=ygUOY2xhcmEgYnJhc3NldXI%3D">Presentation video.</a></p>
+	    </section>
+
+            <section>
+	      <span class="icon solid major fa-video"></span>
+	      <h3>Astronify: Listening to the Stars</h3>
+	      <p><a target="_blank" href="https://www.youtube.com/watch?v=irqDtUPh-QI&pp=ygUOY2xhcmEgYnJhc3NldXI%3D">Presentation video.</a></p>
+	    </section>
+            
 	    <section>
 	      <span class="icon solid major fa-file"></span>
 	      <h3>Astrocut: A cutout service for TESS full-frame image sets.</h3>
 	      <p><a target="_blank" href="http://adass2018.astro.umd.edu/abstracts/O10-1.pdf">Presentation slides.</a></p>
 	    </section>
+            
 	    <section>
 	      <span class="icon solid major fa-video"></span>
 	      <h3>Work smart not hard: How Astrocut/TESScut efficiently cuts TESS full-frame image sets</h3>
 	      <p><a target="_blank" href="https://www.youtube.com/watch?v=JdVnEbVkgYI&feature=youtu.be">Presentation video.</a></p>
 	    </section>
+            
 	    <section>
 	      <span class="icon brands solid major fa-github"></span>
 	      <h3>Accessing TESS Data Programmatically: A MAST case study</h3>
 	      <p><a target="_blank" href="https://github.com/ceb8/tasc5">Software demo repository.</a></p>
 	    </section>
+            
 	    <section>
 	      <span class="icon brands solid major fa-github"></span>
 	      <h3>TESScut and ExoMAST: Working with TESS Time Series Data</h3>
 	      <p><a target="_blank" href="https://github.com/spacetelescope/tessworkshop_tutorials/tree/master/tesscut_exomast">Workshop repository.</a></p>
 	    </section>
-	    <section>
-	      <span class="icon solid major fa-file"></span>
-	      <h3>Stellar Flares in GALEX and Kepler</h3>
-	      <p><a target="_blank" href="https://stsci.box.com/s/gc4rynur1pjjjl98n6i1gvs4x8z35171">Presentation slides.</a></p>
-	    </section>
-	    <section>
-	      <span class="icon brands solid major fa-github"></span>
-	      <h3>Cepheid Variable Stars in Globular Cluster NGC 1866</h3>
-	      <p>MSc dissertaion <a target="_blank" href="https://github.com/ceb8/CepheidVariables">github repository</a> and <a target="_blank"  href="https://github.com/ceb8/CepheidVariables/blob/master/doc/Brasseur_NGC1866_Cepheids.pdf">pdf</a>.</p>
-	    </section>
+	    
 	  </div>
 	</div>
+        
       </section>
 
 
